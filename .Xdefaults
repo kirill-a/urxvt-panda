@@ -1,0 +1,39 @@
+!! Appearance
+urxvt.termName: rxvt-unicode
+urxvt.scrollBar: false
+urxvt.background: #292A2B
+urxvt.foreground: #E6E6E6
+!! Font prefferenes
+urxvt.font: xft:Droid Sans Mono for Powerline:pixelsize=14:weight=bold
+urxvt.boldFont: xft:Droid Sans Mono for Powerline:pixelsize=14:weight=bold
+urxvt.letterSpace: -1
+!! Larger history limit
+urxvt.saveLines: 1000000
+
+!! Perl extensions
+urxvt.perl-ext-common: default,matcher,font-size
+!! Open urls in browser with Control-Click
+urxvt.urlLauncher: /usr/bin/firefox
+urxvt.matcher.button: C1
+!! Change font size on Control-Plus/Minus
+URxvt.keysym.Control-0x2b: perl:font-size:increase
+URxvt.keysym.Control-0x2d: perl:font-size:decrease
+
+!! Panda color theme
+URxvt.color0: rgb:29/2A/2B
+URxvt.color1: rgb:FF/2C/6D
+URxvt.color2: rgb:19/f9/d8
+URxvt.color3: rgb:FF/CC/95
+URxvt.color4: rgb:ff/cc/95
+URxvt.color5: rgb:6F/C1/FF
+URxvt.color6: rgb:ff/75/b5
+URxvt.color7: rgb:45/a9/f9
+URxvt.color8: rgb:FF/9A/C1
+URxvt.color9: rgb:b0/84/eb
+URxvt.color10: rgb:E6/E6/E6
+URxvt.color11: rgb:67/6b/79
+URxvt.color12: rgb:ff/75/b5
+URxvt.color13: rgb:19/f9/d8
+URxvt.color14: rgb:FF/B8/6C
+URxvt.color15: rgb:b0/84/eb
+URxvt.colorBD: rgb:ff/ff/ff 
